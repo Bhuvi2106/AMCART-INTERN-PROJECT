@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 import missingno as msno
-  df=pd.read_excel(r"C:\Users\ravik\Downloads\data.xlsx")
+  df=pd.read_excel(r"https://docs.google.com/spreadsheets/d/1yKll2Vg_mRRrNP_yrUaGr53y1VZMygQo/edit?usp=sharing&ouid=101183190533718048323&rtpof=true&sd=true")
   df.head()
   df.shape
   df.describe()
